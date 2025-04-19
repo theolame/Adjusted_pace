@@ -113,8 +113,8 @@ def run_minetti_analysis(input_file):
 # Example usage
 if __name__ == "__main__":
     print("Running analysis on 10k.gpx")
-    run_minetti_analysis("10k.gpx")
+    run_minetti_analysis("data/10k.gpx")
     print("\nRunning analysis on Trail_7lo.fit")
-    run_minetti_analysis("Trail_7lo.fit")
+    run_minetti_analysis("data/Trail_7lo.fit")
     print("\nRunning analysis on training.fit")
-    run_minetti_analysis("training.fit")
+    run_minetti_analysis("data/training.fit")
